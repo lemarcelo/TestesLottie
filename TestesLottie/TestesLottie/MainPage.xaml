@@ -5,13 +5,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
-             x:Class="TestesLottie.MainPage">
+             x:Class="TestesLottie.MainPage" Padding="0,20,0,0">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Lottie!" />
+
+        <lottie:AnimationView 
+            Animation="checkbox1.json"
+            IsPlaying="True"
+            
+            FlowDirection="LeftToRight"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+                        
+            />
+        
     </StackLayout>
 
 </ContentPage>

@@ -17,5 +17,10 @@ namespace TestesLottie
         {
             InitializeComponent();
         }
+
+        private void AnimationView_OnPlay(object sender, EventArgs e)
+        {
+
+        }
     }
 }
